@@ -1,0 +1,75 @@
+.home-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-github-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.home-github-name {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-github-text {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.home-github-search-text {
+  color: #8752cc;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.home-form {  
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-input {
+  width: 800px;
+  height: 75px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 20px;
+  border: 2px solid #202020;
+}
+
+.home-input ::placeholder {
+  color: #ffffff;
+}
+
+.home-button {
+  width: 250px;
+  height: 55px;
+  background-color: #562694;
+  color: #ffffff;
+  margin-top: 40px;
+  border-radius: 100px;
+
+  transition: transform 0.3s;
+}
+
+.home-button:hover {
+  transform: scale(1.05);
+}
