@@ -13,7 +13,6 @@ import "./styles.css";
 
 function Profile(props) {
   const userInfo = props.location.state.userInfo;
-  console.log(userInfo);
 
   return (
     <div className="profile-container">
