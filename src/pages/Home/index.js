@@ -4,25 +4,26 @@ import { useHistory } from "react-router-dom";
 import githubLogo from "../../assets/github-background.svg";
 import api from "../../services/api";
 import "./styles.css";
+import { useCallback } from "react";
 
 function Home() {
   const [userName, setUserName] = useState();
   const history = useHistory();
 
-  async function handleSubmit(event) {
+  const handleSubmit = useCallback(async (event) => {
     event.preventDefault();
 
     try {
       const response = await api.get(`users/${userName}`);
 
       history.push({
-        pathname: '/profile',
-        state: { userInfo: response.data }
-      })
+        pathname: "/profile",
+        state: { userInfo: response.data },
+      });
     } catch (err) {
       alert(err.response);
     }
-  }
+  }, [history, userName]);
 
   return (
     <div className="home-container">
