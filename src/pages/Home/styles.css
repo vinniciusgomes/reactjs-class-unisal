@@ -28,13 +28,13 @@
 }
 
 .home-github-search-text {
-  color: #8752cc;
+  color: #00d8ff;
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 10px;
 }
 
-.home-form {  
+.home-form {
   width: 100%;
   margin-top: 50px;
   display: flex;
@@ -49,10 +49,15 @@
   padding: 0 24px;
   border: 0;
   border-radius: 5px 0 0 5px;
-  background-color: #202020;
+  background-color: #201f24;
   color: #ffffff;
   font-size: 20px;
-  border: 2px solid #202020;
+  border: 2px solid #201f24;
+  transition: border-color 0.3s;
+}
+
+.home-input:focus {
+  border-color: #00d8ff;
 }
 
 .home-input ::placeholder {
@@ -62,7 +67,7 @@
 .home-button {
   width: 250px;
   height: 55px;
-  background-color: #562694;
+  background-color: #00d8ff;
   color: #ffffff;
   margin-top: 40px;
   border-radius: 100px;
