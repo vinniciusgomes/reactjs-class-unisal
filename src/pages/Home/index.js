@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { useHistory } from "react-router-dom";
 
 import githubLogo from "../../assets/github-background.svg";
 import api from "../../services/api";
+
 import "./styles.css";
-import { useCallback } from "react";
 
 function Home() {
   const [userName, setUserName] = useState();

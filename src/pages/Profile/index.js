@@ -9,6 +9,7 @@ import followersIcon from "../../assets/followers.svg";
 import followingIcon from "../../assets/following.svg";
 import repositoriesIcon from "../../assets/repositories.svg";
 import gistsIcon from "../../assets/gists.svg";
+
 import "./styles.css";
 
 function Profile(props) {

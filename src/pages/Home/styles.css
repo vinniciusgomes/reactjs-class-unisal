@@ -15,6 +15,7 @@
 
 .home-github-name {
   margin-top: 30px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +25,7 @@
   color: #ffffff;
   font-size: 50px;
   font-weight: bold;
+
   margin-right: 20px;
 }
 
@@ -37,6 +39,7 @@
 .home-form {
   width: 100%;
   margin-top: 50px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,12 +50,15 @@
   width: 800px;
   height: 75px;
   padding: 0 24px;
+  
   border: 0;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
   background-color: #201f24;
+  border: 2px solid #201f24;
+
   color: #ffffff;
   font-size: 20px;
-  border: 2px solid #201f24;
+
   transition: border-color 0.3s;
 }
 
@@ -69,6 +75,7 @@
   height: 55px;
   background-color: #00d8ff;
   color: #ffffff;
+  
   margin-top: 40px;
   border-radius: 100px;
 
